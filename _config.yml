@@ -16,4 +16,4 @@ twitter_username: leebrandt
 github_username:  leebrandt
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
