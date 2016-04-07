@@ -98,8 +98,17 @@
  * Site footer
  */
 .site-footer {
+    background-color: #333;
+    color: #CCC;
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    a{
+        color: #AAA;
+        &:hover{
+            text-decoration: none;
+            color:#FFF;
+        }
+    }
 }
 
 .footer-heading {
@@ -175,6 +184,13 @@
     font-size: 20px;
 }
 
+.hero{
+    height: 12rem;
+    width: 100%;
+    background: url(/img/kc_skyline.jpg);
+    background-position: 40% 35%;
+}
+
 .post-list {
     margin-left: 0;
     list-style: none;
@@ -187,6 +203,7 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    text-decoration: underline;
 }
 
 .post-link {
