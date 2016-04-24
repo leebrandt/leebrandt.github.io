@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title:  "4 Ways To Declare Your Angular Stuff"
+headline:  4 Ways To Declare Your Angular Stuff
 date:   2016-04-04 06:22:46 -0600
 categories: software angular javascript
 tags: [javascript,angular]

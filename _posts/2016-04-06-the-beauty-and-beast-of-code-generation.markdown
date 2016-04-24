@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title:  "The Beauty (And Beast) Of Code Generation"
+headline:  The Beauty (And Beast) Of Code Generation
 date:   2016-04-06 06:22:46 -0600
 categories: software tools
 tags: [tools,software]
