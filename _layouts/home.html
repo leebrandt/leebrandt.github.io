@@ -27,9 +27,9 @@ Description: Awesome dude, awesome life
     <hr>
 {% for link in site.links %}
             <li>{% if link.external %}
-                    <a href="/{{ link.url }}">{{ link.title }}</a>
+                    <a href="{{ link.url }}">{{ link.title }}</a>
                 {% else %}
-                    <a href="/{{ link.url }}">{{ link.title }}</a>
+                    <a href="{{ link.url }}">{{ link.title }}</a>
                 {% endif %} </li>
 {% endfor %}            
            <li><a href="/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
