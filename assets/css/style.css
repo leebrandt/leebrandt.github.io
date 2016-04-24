@@ -597,6 +597,16 @@ html {
   position: relative;
   z-index: 2;
 }
+#footer .attribution{
+  color: #999;
+}
+#footer .attribution a {
+  color: #CCC;
+}
+#footer .attribution a:hover {
+  color: #FFF;
+}
+
 /* ---------------- */
 /* THEME UTILITITES */
 /* ---------------- */
