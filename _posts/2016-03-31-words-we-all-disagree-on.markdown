@@ -4,6 +4,9 @@ comments: true
 title:  "Words We All Disagree On"
 date:   2016-03-30 06:22:46 -0600
 categories: vocabulary software
+headline: Words We All Disagree On
+tags: [software,vocabulary]
+mathjax:
 ---
 
 The Problem

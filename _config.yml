@@ -1,20 +1,84 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
 title: Lee's Blog
 email: leebrandt@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Because you're only as smart as your last line of code.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+description: Because you're only as smart as your last line of code.
+disqus_shortname: leebrandt
+
+# Assign a default image for your site's header and footer
+default_bg:       KC_Skyline.jpg
+search:           true
+share:            true
+# Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
+readtime:         true
+# Specify the average Words per minute. If not defined, 180 will be used
+wpm:				      200
+# Turn on or off the fin animations in the header and footer
+triangleheader:		true
+animated_fins:    true
+# Specify the fin color in RGB value
+fin_color:        "255,255,255"
+# Change url to your domain. Leave localhost server or blank when working locally.
+url:              "http://localhost:4000"
+
 twitter_username: leebrandt
 github_username:  leebrandt
 excerpt_separator: <!--more-->
 
+# Owner/author information
+owner:
+  name:           Lee Brandt
+  avatar:         LeeBrandt.png
+  email:          leebrandt@gmail.com
+  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
+  description:    
+  # Social networking links used in footer. Update and remove as you like.
+  # To register at HMFAYSAL SOCIAL, visit http://social.hmfaysal.tk
+  twitter: leebrandt
+  facebook: leebrandt.jr
+  github: leebrandt
+  linkedin: https://www.linkedin.com/in/leebrandt
+  instagram: leebrandt
+  tumblr: leebrandt
+  # For Google Authorship https://plus.google.com/authorship
+  # google_plus:    "http://plus.google.com/123123123123123123"
+  
+# Analytics and webmaster tools stuff goes here
+google_analytics:
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: <i class="icon-home"></i> Home
+    url: /
+  - title: <i class="icon-folder-open"></i> Categories
+    url: /categories
+  - title: <i class="icon-tag"></i> Tags
+    url: /tags
+  - title: <i class="icon-microphone"></i> Talks
+    url: /talks
+  - title: <i class="icon-user"></i> About
+    url: /about
+
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+    
 # Build settings
-markdown: kramdown
+# markdown: kramdown

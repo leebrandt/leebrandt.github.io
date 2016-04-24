@@ -2,6 +2,7 @@
 layout: page
 title: Talks
 permalink: /talks/
+headline: Available Talks
 ---
 
 #### JavaScript LevelUp

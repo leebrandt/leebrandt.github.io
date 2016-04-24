@@ -4,6 +4,7 @@ comments: true
 title:  "4 Ways To Declare Your Angular Stuff"
 date:   2016-04-04 06:22:46 -0600
 categories: software angular javascript
+tags: [javascript,angular]
 ---
 
 I’ve been writing AngularJS websites for a couple of years now and have worked in several different shops with their own styles and on my own projects, where my style has changed slowly as I have read other people’s code and picked up things I liked.
