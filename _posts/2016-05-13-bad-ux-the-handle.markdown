@@ -18,7 +18,7 @@ When the installers finished, I went to take a look; just to see what an "afterm
 
 ![Bad Handle](/img/BadHandle.JPG)
 
-Now the handle is obviously for some sort of manual override (probably for emergency opening), but the problem is, they used the same handle that users (of doors) are used to seeing on doors that they are meant to open manually, using that handle. Door users have been conditioned to see this bright silver handle, shaped like a door handle, and pull on it. They do it instinctively.
+Now the handle is obviously for some sort of manual override (probably for emergency opening). The problem is, they used the same handle that users (of doors) are used to seeing on doors that they are meant to open manually, using that handle. Door users have been conditioned to see this bright silver handle, shaped like a door handle, and pull on it. They do it instinctively.
 
 They could have added a recessed handle that was a bit hidden, only to be used by technicians, or in an emergency. They might not have needed to put up a sign telling people not to pull on that handle.
 
