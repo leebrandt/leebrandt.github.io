@@ -12,9 +12,9 @@ Since I've been doing more front-end development, I've been asked to delve into 
 
 <!-- more -->
 
-In the office building where I am currently working, the recently installed an elevator. It's kind of an afterthought elevator. I'm sure it is a measure to comply with disabled employees who need to get to the second floor of this older, small office complex.
+In the office building where I am currently working, they recently installed an elevator. It's kind of an after-thought elevator. I'm sure it is a measure to comply with disabled employees who need to get to the second floor of this older, small office complex.
 
-When the installers finished, I went to take a look; just to see what an "aftermarket" elevator looks like. I was surprised to see the door to the elevator with this handle.
+When the installers finished, I went to take a look... just to see what an "aftermarket" elevator looks like. I was surprised to see the door to the elevator with this handle (and sign).
 
 ![Bad Handle](/img/BadHandle.JPG)
 
