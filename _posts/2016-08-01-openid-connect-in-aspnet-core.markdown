@@ -62,3 +62,9 @@ The **ClientId**, and **ClientSecret** are pretty self-explanatory. I got them f
 The **GetClaimsFromUserInfoEndpoint** setting tells the provider that if we’re successful authenticating, go ahead and make a call to the userinfo_endpoint (specified in the configuration document at the same URL where we got the authorization_endpoint and the response_types_supported).
 
 Finally, we tell the application to save the token **SaveTokens** once it comes back from the provider.
+
+Ready To Go Try It?
+==
+By now you should be chomping at the bit to implement OpenID Connect in ***your*** ASP.NET Core application. For more information on OpenID Connect watch [this video](https://vimeo.com/113604459) from [Dominick Baier](https://leastprivilege.com/). Then look at his repo for the example on [OIDC](https://github.com/leastprivilege/AspNetCoreSecuritySamples/tree/master/OIDC). Dominick's video and examples helped me a lot. 
+
+Happy Auth'ing!
