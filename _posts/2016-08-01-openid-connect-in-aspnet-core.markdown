@@ -18,7 +18,7 @@ OpenID Connect is a protocol for authenticating users, built with the latest in 
 
 Why Not Use The Built-In Providers?
 ==
-The authentication providers built in to ASP.NET Core are outstanding, but there are some shortcomings. First, OAuth is NOT an authentication protocol. I know what you’re thinking: “What?!!?” But it’s not. It is an Authorization Specification, which many modern authentication protocols are built on. Second, while OAuth does a great job of providing the necessary information for consumers to make authorization decisions, it says nothing about how that information will be exchanged securely. This led to every authentication provider having their own way of exchanging the OAuth information, which has led to a few well-publicized hacks. OpenID Connect fixes these problems by providing an authentication protocol that describes exactly how the exchange of authorization information happens between a subscriber and their provider. 
+The authentication providers built in to ASP.NET Core are outstanding, but there are some shortcomings. First, OAuth is NOT an authentication protocol. I know what you’re thinking: “What?!!?” But it’s not. It is an Authorization Specification, which many modern authentication protocols are built on. Second, while OAuth does a great job of providing the necessary information for consumers to make authorization decisions, it says nothing about how that information will be exchanged securely. This led to every authentication provider having their own way of exchanging the OAuth information, which has led to a few well-publicized hacks. OpenID Connect fixes these problems by providing an authentication protocol that describes exactly how the exchange of authorization information happens between a subscriber and their provider.
 
 Another advantage OpenID Connect has, is that it provides a framework for providers to abide by, so that consuming them is easier. They all have a document at [provider url]/.well-known/openid-configuration that describes their set up. What this means is, like ReST's Hypermedia, you (or your application's code) can discover how to subscribe to a specific provider!
 
@@ -65,6 +65,6 @@ Finally, we tell the application to save the token **SaveTokens** once it comes 
 
 Ready To Go Try It?
 ==
-By now you should be chomping at the bit to implement OpenID Connect in ***your*** ASP.NET Core application. For more information on OpenID Connect watch [this video](https://vimeo.com/113604459) from [Dominick Baier](https://leastprivilege.com/). Then look at his repo for the example on [OIDC](https://github.com/leastprivilege/AspNetCoreSecuritySamples/tree/master/OIDC). Dominick's video and examples helped me a lot. 
+By now you should be chomping at the bit to implement OpenID Connect in ***your*** ASP.NET Core application. For more information on OpenID Connect watch [this video](https://vimeo.com/113604459) from [Dominick Baier](https://leastprivilege.com/). Then look at his repo for the example on [OIDC](https://github.com/leastprivilege/AspNetCoreSecuritySamples/tree/master/OIDC). Dominick's video and examples helped me a lot.
 
 Happy Auth'ing!

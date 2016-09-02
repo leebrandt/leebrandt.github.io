@@ -6,7 +6,6 @@ date:   2016-03-30 06:22:46 -0600
 categories: vocabulary software
 headline: Words We All Disagree On
 tags: [software,vocabulary]
-mathjax:
 ---
 
 The Problem
@@ -53,4 +52,3 @@ Others?
 What terms do YOU see being misused, misunderstood or maybe just need to go away? What do you think of my interpretations of these technologies? Spot on? Am I way off? Leave your comments below.
 
 Thanks for reading…
-
