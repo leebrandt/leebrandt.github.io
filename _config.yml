@@ -61,6 +61,8 @@ links:
     url: /talks
   - title: <i class="icon-user"></i> About
     url: /about
+  - title: <i class="icon-calendar"></i> Calendar
+    url: /calendar
 
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
