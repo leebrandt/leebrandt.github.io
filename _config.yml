@@ -42,7 +42,7 @@ owner:
   # google_plus:    "http://plus.google.com/123123123123123123"
   
 # Analytics and webmaster tools stuff goes here
-google_analytics:
+google_analytics: UA-2570404-6
 google_verify:
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here

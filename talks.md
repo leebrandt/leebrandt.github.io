@@ -5,20 +5,20 @@ permalink: /talks/
 headline: Available Talks
 ---
 
-Dockerize Your Development Environment
+A Developer's Guide To Docker
 ===
 >It works on my machine. We’ve all heard it. Most of us have said it. It’s been impossible to get around it… until now. Not only can Docker-izing your .NET development environment solve that issue, but it can make it drop-dead simple to onboard new developers, keep a team working forward and allow everyone on the team use their desired tools! 
 I will show you how to get Docker set up to use as the run environment for your .NET projects, how to maintain the docker environment, and even how easy it will be to deploy the whole environment to production in a way that you are actually developing in an environment that isn’t just “like” production. It IS the production environment!
 You will learn the basics of Docker, how to use it to develop and how to deploy your “development” environment as the production environment!
 
+Things I’ve Learned From Developers I Admire
+===
+>Over tha last two decades, I’ve been fortunate enough to read, watch and work with some spectacular developers. During those times, I’ve learned some things that shaped my development career, the way I approach software, and how I interact with the software community as a whole. For instance, what’s the best way to get that job with that company you want? How can I get to be as good as (fill in hero developer)? I will cover all these and more. I will tell you some of the most important lessons I learned from these developers that I’ve admired and how these lessons will help you in your career.
+
 Building a ReSTful API in .Net Core Web API
 ===
 >You've heard about ReSTful web services, you may have even worked with people who say they have a ReSTful web service. Maybe you're not even sure what makes a ReSTful service different from a SOAP service. Maybe you just want to see how it would be done in .NET Core.
 I will show you how to develop truly ReSTful web services using Microsoft's latest version of the .NET framework and in particular, the newest version of Web API! I will show you how to expose Hypermedia within your new API and what the benefits are. You will learn the basics of setting up Web API in .NET Core and how to make it sing ReSTfully!
-
-React And Your .NET Core MVC App or React + ASP.NET Core = Awesome!
-===
->Developing React applications usually mean developing a back end with .NET Core or NodeJS, and then a separate “plain-old” React app. This is great for applications with a “back-end” team and a “front-end” team. But in a LOT of situations, there’s only one team building the application and create a single code base with good separation between the front end and back end can be complicated. I will show you how to take the generated MVC application and integrate React with it in a way that keeps the layers separated, but easily deployable as a single app!
 
 JavaScript LevelUp
 ===
@@ -31,7 +31,3 @@ Will The ReAL ReST Please Stand Up?
 Real Agile for Real Software
 ===
 >There's been a lot of talk recently about Agile software development. As people try to make the transition, they generally find themselves stumbling and maybe even giving up on Agile altogether. In this session I will help you understand discuss what Agile is, and what it isn’t. I will tell you about the differences between “Big A” Agile and “Little A” agile. I’ll tell you real stories from real agile transformations, and you’ll learn common problems that most companies face during an agile transformation and how to overcome those challenges.
-
-Consuming Hypermedia in AngularJS
-===
->ReSTful services are all the rage, but most companies skip the HyperMedia part of ReST. This is because it can be hard for the new single-page apps to consume them and get all the benefits of the HyperMedia in the API. In this session, I will show you how to consume HyperMedia easily from AngularJS and even help you understand how to survive a refresh and keep deep links working like you can without letting the HyperMedia lead your API calls. We’ll even look at an AngularJS library that can help you do it even easier!
